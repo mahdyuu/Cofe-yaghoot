@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>کافه یاقوت</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      background: #f7f3ee;
+      color: #333;
+    }
+    header {
+      background: #8b5e3c;
+      color: #fff;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085') center/cover no-repeat;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+      font-size: 2rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .menu-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    footer {
+      background: #8b5e3c;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    img { max-width: 100%; height: auto; display: block; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>کافه یاقوت</h1>
+    <nav>
+      <a href="#about">درباره ما</a>
+      <a href="#menu">منو</a>
+      <a href="#contact">تماس</a>
+    </nav>
+  </header>
+
+  <div class="hero">لحظه‌هات رو با ما خوشمزه کن</div>
+
+  <section id="about">
+    <h2>درباره ما</h2>
+    <p>کافه یاقوت با بهترین دانه‌های قهوه و فضای دل‌نشین میزبان شماست. ما باور داریم هر فنجان قهوه یک خاطره‌ست.</p>
+  </section>
+
+  <section id="menu">
+    <h2>منو</h2>
+    <div class="menu-items">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348" alt="کاپوچینو" style="border-radius:8px; margin-bottom:0.5rem;">
+        <h3>کاپوچینو</h3><p>۷۵٬۰۰۰ تومان</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1527443154391-507e9dc6c5cc" alt="لاته" style="border-radius:8px; margin-bottom:0.5rem;">
+        <h3>لاته</h3><p>۸۰٬۰۰۰ تومان</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="اسپرسو" style="border-radius:8px; margin-bottom:0.5rem;">
+        <h3>اسپرسو</h3><p>۶۰٬۰۰۰ تومان</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1600271886742-f049cd451bba" alt="چای ماسالا" style="border-radius:8px; margin-bottom:0.5rem;">
+        <h3>چای ماسالا</h3><p>۷۰٬۰۰۰ تومان</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>تماس با ما</h2>
+    <p>آدرس: تهران، خیابان مثال، پلاک ۱۲</p>
+    <p>تلفن: ۰۲۱-۱۲۳۴۵۶۷۸</p>
+  </section>
+
+  <footer>
+    © 2025 کافه یاقوت
+  </footer>
+</body>
+</html>
